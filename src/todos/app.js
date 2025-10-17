@@ -1,6 +1,6 @@
 import todoStore from '../store/todo.store';
 import html from './app.html?raw';
-import { renderTodos } from './use-cases';
+import { renderTodos } from './use-cases/';
 
 const elementIDs = {
     TodoList: '.todo-list',
